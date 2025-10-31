@@ -18,3 +18,10 @@ It will:
 1. set `KUBECONFIG` to reference `kubeconfig.yaml`
 
 Now the k8s cluster can be accessed with `kubectl`
+
+## Deploying `go-httpbin`
+Use `go-httpbin-resources.yaml` and `go-httpbin-ingress.yaml` to deploy the project into k8s.
+
+## Bonus assignment
+### What is NoSQL and what does it differ from SQL?
+In a nutshell: NoSQL is a database that does not have fixed data structure, unlike SQL. It is best for cases where data has no structure, or its structure is frequently changing.
